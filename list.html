@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>List</title>
+  <meta charset="UTF-8">
+  <title>List</title>
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <img src="assests/images/logo.png" alt="logo" style="height:150px; width:200px;">
-      <p>Header Div</p>
+    <!-- HEADER -->
+    <header style="padding: 10px;">
+      <!-- Logo and Login button inline -->
+      <img src="assests/images/logo.png" alt="logo" style="height:150px; width:200px; vertical-align: middle;">
+      <a href="login.html" target="_blank" 
+         style="vertical-align: middle; margin-left: 10px; text-decoration: none; font-weight: bold;">
+        Login
+      </a>
     </header>
-    <main>
-      <p>Content Div</p>
+
+    <!-- MAIN CONTENT -->
+    <main style="margin-top: 20px;">
+      <!-- List View & Map View links -->
+      <ul style="list-style-type: disc; margin-left: 20px;">
+        <li><a href="#" style="text-decoration: none;">List View</a></li>
+        <li><a href="#map-section" style="text-decoration: none;">Map View</a></li>
+      </ul>
+
+      <!-- Radisson Blu Hotel (clickable as a single block) -->
+      <a href="detail.html" style="text-decoration: none; color: inherit;">
+        <div style="margin: 20px 0 0 20px;">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" 
+               alt="Radisson Blu Hotel" 
+               style="width:100%; max-width:1000px; display:block; margin-left:20px;">
+          <h3 style="margin: 5px 0 0; font-weight: bold; text-decoration: underline;">Radisson Blu Hotel</h3>
+          <p style="margin: 5px 0 0;">5 Star</p>
+          <p style="margin: 5px 0 0;">New Delhi</p>
+        </div>
+      </a>
+
+      <!-- The Lalit New Delhi -->
+      <div style="margin: 20px 0 0 20px;">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" 
+             alt="The Lalit New Delhi" 
+             style="width:100%; max-width:1000px; display:block; margin-left:20px;">
+        <h3 style="margin: 5px 0 0; font-weight: bold;">The Lalit New Delhi</h3>
+        <p style="margin: 5px 0 0;">4.5 Star</p>
+        <p style="margin: 5px 0 0;">New Delhi</p>
+      </div>
+
+      <!-- Taj Palace -->
+      <div style="margin: 20px 0 0 20px;">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" 
+             alt="Taj Palace" 
+             style="width:100%; max-width:1000px; display:block; margin-left:20px;">
+        <h3 style="margin: 5px 0 0; font-weight: bold;">Taj Palace</h3>
+        <p style="margin: 5px 0 0;">4.0 Star</p>
+        <p style="margin: 5px 0 0;">New Delhi</p>
+      </div>
+
+      <!-- Map Image -->
+      <div id="map-section" style="margin: 20px 0 0 20px;">
+        <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" 
+             alt="Map" 
+             style="width:100%; max-width:1000px; display:block; margin-left:20px;">
+      </div>
+      <p style="text-align: left; margin-left:20px;">Map View</p>
     </main>
-    <footer>
-      <p>Footer Div</p>
+
+    <!-- FOOTER (Left aligned as in index.html) -->
+    <footer style="margin-top: 20px;">
+      <p>
+        <a href="contact.html">Contact Us</a>
+      </p>
+      <p>
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="assests/images/facebook.png" alt="Facebook" style="height:20px; width:22px; margin-right:10px;">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="assests/images/twitter.png" alt="Twitter" style="height:20px; width:22px; margin-right:10px;">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="assests/images/instagram.png" alt="Instagram" style="height:20px; width:22px;">
+        </a>
+      </p>
+      <p>© 2025 ROOM SEARCH PVT. LTD.</p>
     </footer>
+
   </div>
 </body>
 </html>

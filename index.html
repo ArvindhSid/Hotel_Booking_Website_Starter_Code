@@ -1,21 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Index</title>
+  <meta charset="UTF-8">
+  <title>Index</title>
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <img src="assests/images/logo.png" alt="logo" style="height:150px; width:200px;">
-      <p>Header Div</p>
+    <!-- HEADER -->
+    <header style="padding: 10px;">
+      <div style="display: inline-block; vertical-align: middle;">
+        <!-- Logo -->
+        <img 
+          src="assests/images/logo.png" 
+          alt="logo" 
+          style="height:150px; width:200px; vertical-align: middle;"
+        >
+        <!-- Login button immediately to the right of the image -->
+        <a 
+          href="login.html" 
+          target="_blank" 
+          style="margin-left: 10px; vertical-align: middle; text-decoration: none; font-weight: bold;"
+        >
+          Login
+        </a>
+      </div>
     </header>
-    <main>
-      <p>Content Div</p>
+
+    <!-- MAIN CONTENT -->
+    <main style="margin-top: 20px;">
+      <!-- 1. Text: Search Bar -->
+      <p>Search Bar</p>
+
+      <!-- 2. Four city images (300x300) -->
+      <p>
+        <!-- First image links to list.html -->
+        <a href="list.html">
+          <img 
+            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" 
+            alt="City 1" 
+            style="width:300px; height:300px; margin-right:10px;"
+          >
+        </a>
+        <!-- Other images -->
+        <img 
+          src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" 
+          alt="City 2" 
+          style="width:300px; height:300px; margin-right:10px;"
+        >
+        <img 
+          src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" 
+          alt="City 3" 
+          style="width:300px; height:300px; margin-right:10px;"
+        >
+        <img 
+          src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" 
+          alt="City 4" 
+          style="width:300px; height:300px;"
+        >
+      </p>
+
+      <!-- 3. View more >> link -->
+      <p>
+        <a href="index.html">View more >></a>
+      </p>
     </main>
-    <footer>
-      <p>Footer Div</p>
+
+    <!-- FOOTER -->
+    <footer style="margin-top: 20px;">
+      <!-- Contact Us link -->
+      <p>
+        <a href="contact.html">Contact Us</a>
+      </p>
+      <!-- Social media icons (20px x 22px) -->
+      <p>
+        <a href="https://www.facebook.com" target="_blank">
+          <img 
+            src="assests/images/facebook.png" 
+            alt="Facebook" 
+            style="height:20px; width:22px; margin-right:10px;"
+          >
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img 
+            src="assests/images/twitter.png" 
+            alt="Twitter" 
+            style="height:20px; width:22px; margin-right:10px;"
+          >
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img 
+            src="assests/images/instagram.png" 
+            alt="Instagram" 
+            style="height:20px; width:22px;"
+          >
+        </a>
+      </p>
+      <!-- Copyright -->
+      <p>© 2025 ROOM SEARCH PVT. LTD.</p>
     </footer>
+
   </div>
 </body>
 </html>
